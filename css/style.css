@@ -1,13 +1,7 @@
-html{
-    height: 100%;
-    margin: auto;
-    width: 100%;
-    overflow-y: scroll;
-}
-
-body{
-    overflow-y: scroll;
-}
+body {
+    margin: 0;
+    overscroll-behavior: none;
+  }
 
 .header h1{
     font-family:'Pacifico', sans-serif;
@@ -18,9 +12,12 @@ body{
     text-align: center;
 }
 .nav_bar{
+    width: 100%;
     background:rgba(243, 210, 210, 0.4);
     text-align: center;
-    margin: 0;
+    position: relative;
+    display: block;
+    
 }
 .nav_bar li {
     display: inline-block;
@@ -34,7 +31,14 @@ body{
     font-size: 20px;
     margin: auto;
 }
+.nav_bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .landing_page{
+    margin-top: 3%;
     height: 580px;
     width: 100%;
     display: block;
@@ -57,7 +61,7 @@ body{
     display: inline-block;
     position: fixed;
     left: 20%;
-    top: 28%;
+    top: 35%;
     background-color:rgba(243, 210, 210, 0.8); 
     border-radius: 30px;
     /* opacity: 80%; */
@@ -68,7 +72,7 @@ body{
     display: inline-block;
     position: fixed;
     left: 12%;
-    top: 18%;
+    top: 22%;
     border-radius: 50%;
     background-color: rgb(245, 183, 129) ;
     opacity: 100%;
@@ -78,8 +82,8 @@ body{
     width: 100px;
     display: inline-block;
     position: fixed;
-    left: 19%;
-    top: 17%;
+    left: 20%;
+    top: 23%;
     border-radius: 50%;
     background-color: rgba(243, 210, 210, 0.9);
     opacity: 100%;
@@ -90,7 +94,7 @@ body{
     display: inline-block;
     position: fixed;
     left: 78%;
-    top: 68%;
+    top: 75%;
     border-radius: 50%;
     background-color: rgb(245, 183, 129) ;
     opacity: 100%;
@@ -101,7 +105,7 @@ body{
     display: inline-block;
     position: fixed;
     left: 76%;
-    top: 78%;
+    top: 84%;
     border-radius: 50%;
     background-color: rgba(243, 210, 210, 0.9);
     opacity: 100%;
@@ -113,7 +117,7 @@ body{
     letter-spacing: 1px;
     font-weight: 50;
     position: fixed;
-    top: 30%;
+    top: 36%;
     left: 24%;
     color: black;
 }
@@ -123,7 +127,7 @@ body{
     letter-spacing: 1px;
     font-weight: 50;
     position: fixed;
-    top: 33%;
+    top: 39%;
     left: 28%;
     color: black;
 }
@@ -133,7 +137,7 @@ body{
     width: 450px;
     position: fixed;
     left: 45%;
-    top: 25%;
+    top: 26%;
     border: 10px solid white;
     border-radius: 15px;
 }
@@ -142,7 +146,7 @@ body{
     width: 300px;
     position: fixed;
     left: 66%;
-    top: 31%;
+    top: 34%;
     border: 10px solid white;
     border-radius: 15px;
 }
@@ -151,34 +155,45 @@ body{
     width: 450px;
     position: fixed;
     left: 33%;
-    top: 48%;
+    top: 52%;
     border: 10px solid white;
     border-radius: 15px;
 }
-.destinations {
-    position: fixed;
+
+.row {
     width: 100%;
-    height: 1000px;
-    display: block;
-}
-.destinations h2 {
-    font-family:'Pacifico', sans-serif;
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-weight: 50;
-    color: rgb(70, 70, 70);
-    text-align: left;
-    margin-left: 18%;
-    margin-top: 35%; 
+    display: flex;
+    justify-content: space-between;
 }
 
-.destinations .rectangle3 {
-    height: 60%;
-    width: 70%;
-    display: inline-block;
-    position: fixed;
-    left: 15%;
-    background-color: peachpuff ;
-    border-radius: 30px;
-    opacity: 80%;
+.row .col{
+    width: 50%;
+}
+
+.row .col .img1 {
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 6%;
+    top: 5%%;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+.row .col .img2 {
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: -1%;
+    top: 15%;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+.row .col .img3 {
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: -8%;
+    left: 10%;
+    border: 10px solid white;
+    border-radius: 15px;
 }
