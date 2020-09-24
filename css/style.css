@@ -13,11 +13,11 @@ body {
 }
 .nav_bar{
     width: 100%;
-    background:rgba(243, 210, 210, 0.4);
+    background:rgb(249, 232, 233);
     text-align: center;
     position: relative;
     display: block;
-    
+    z-index: 10;
 }
 .nav_bar li {
     display: inline-block;
@@ -72,7 +72,7 @@ body {
     display: inline-block;
     position: fixed;
     left: 12%;
-    top: 22%;
+    top: 23%;
     border-radius: 50%;
     background-color: rgb(245, 183, 129) ;
     opacity: 100%;
@@ -170,13 +170,26 @@ body {
     width: 50%;
 }
 
+.row .col1{
+    width: 50%;
+    text-align: center;
+}
+
+.row .col1 h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 50;
+    color: black;
+}
+
 .row .col .img1 {
     height: 500px;
     width: 400px;
     position: relative;
     left: 6%;
     top: 5%%;
-    border: 10px solid white;
+    border: 10px solid peachpuff;
     border-radius: 15px;
 }
 .row .col .img2 {
@@ -185,7 +198,7 @@ body {
     position: relative;
     left: -1%;
     top: 15%;
-    border: 10px solid white;
+    border: 10px solid peachpuff;
     border-radius: 15px;
 }
 .row .col .img3 {
@@ -194,6 +207,6 @@ body {
     position: relative;
     top: -8%;
     left: 10%;
-    border: 10px solid white;
+    border: 10px solid peachpuff;
     border-radius: 15px;
 }
