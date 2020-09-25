@@ -183,12 +183,47 @@ body {
     color: black;
 }
 
+.row .col1 .opening{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Quicksand';
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+}
+.row .col1 ul{
+    list-style-type: none;
+}
+.row .col1 p{
+    text-align: left;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70, 0.5);
+}
+
+.row .col1 li{
+    text-align: left;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+}
+
+.row .col1 h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 50;
+    color: black;
+}
+
 .row .col .img1 {
     height: 500px;
     width: 400px;
     position: relative;
     left: 6%;
-    top: 5%%;
+    top: 5%;
     border: 10px solid peachpuff;
     border-radius: 15px;
 }
@@ -210,3 +245,116 @@ body {
     border: 10px solid peachpuff;
     border-radius: 15px;
 }
+
+.row .col1 table{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.row .col1 th{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70, 0.5);
+    height: 300px;
+    width: 900px;
+    border-radius: 50%;
+}
+
+.row .col1 tr{
+    height: 300px;
+    width: 100px;
+}
+
+.row .col1 .th1:hover{
+    background-image: url("../images/europe/th1.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .th2:hover{
+    background-image: url("../images/europe/th2.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .th3:hover{
+    background-image: url("../images/europe/th3.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .th4:hover{
+    background-image: url("../images/europe/th4.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .th5:hover{
+    background-image: url("../images/europe/th5.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .th6:hover{
+    background-image: url("../images/europe/th6.png");
+    background-size: contain;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+
+.row .col1 .tb{
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.row .col1 .tb1{
+    margin-right: 10px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70, 0.5);
+    height: 40px;
+    width: 100px;
+    border-radius: 50%;
+}
+.row .col1 .tb2{
+    margin-right: 10px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70, 0.5);
+    height: 40px;
+    width: 100px;
+    border-radius: 50%;
+}
+.row .col1 .tb3{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70, 0.5);
+    height: 40px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.row .col1 .tb1:hover{
+    background-image: url("../images/europe/tb1.png");
+    background-size: cover;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .tb2:hover{
+    background-image: url("../images/europe/tb2.png");
+    background-size: cover;
+    border: 10px solid peachpuff;
+    color: transparent;
+}
+.row .col1 .tb3:hover{
+    background-image: url("../images/europe/tb3.png");
+    background-size: cover;
+    border: 10px solid peachpuff;
+    color: transparent;
+} 
