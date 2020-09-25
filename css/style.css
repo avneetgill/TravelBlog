@@ -269,37 +269,37 @@ body {
 
 .row .col1 .th1:hover{
     background-image: url("../images/europe/th1.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
 .row .col1 .th2:hover{
     background-image: url("../images/europe/th2.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
 .row .col1 .th3:hover{
     background-image: url("../images/europe/th3.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
 .row .col1 .th4:hover{
     background-image: url("../images/europe/th4.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
 .row .col1 .th5:hover{
     background-image: url("../images/europe/th5.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
 .row .col1 .th6:hover{
     background-image: url("../images/europe/th6.png");
-    background-size: contain;
+    background-size: cover;
     border: 10px solid peachpuff;
     color: transparent;
 }
