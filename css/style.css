@@ -37,89 +37,17 @@ body {
     top: 0;
 }
 
-.landing_page{
-    margin-top: 3%;
-    height: 580px;
-    width: 100%;
-    display: block;
-    position: fixed;
-    overflow-x: scroll;
-}
+.landing_page .welcome{
+    text-align: center;
 
-.landing_page .welcome .rectangle {
-    height: 60%;
-    width: 70%;
-    display: inline-block;
-    position: fixed;
-    left: 15%;
-    background-color: peachpuff ;
-    border-radius: 30px;
-    opacity: 80%;
-}
-.landing_page .welcome .innerRectangle {
-    height: 47%;
-    width: 60%;
-    display: inline-block;
-    position: fixed;
-    left: 20%;
-    top: 35%;
-    background-color:rgba(243, 210, 210, 0.8); 
-    border-radius: 30px;
-    /* opacity: 80%; */
-}
-.landing_page .welcome .circle1 {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    position: fixed;
-    left: 12%;
-    top: 23%;
-    border-radius: 50%;
-    background-color: rgb(245, 183, 129) ;
-    opacity: 100%;
-}
-.landing_page .welcome .circle2 {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    position: fixed;
-    left: 20%;
-    top: 23%;
-    border-radius: 50%;
-    background-color: rgba(243, 210, 210, 0.9);
-    opacity: 100%;
-}
-.landing_page .welcome .circle3 {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    position: fixed;
-    left: 78%;
-    top: 75%;
-    border-radius: 50%;
-    background-color: rgb(245, 183, 129) ;
-    opacity: 100%;
-}
-.landing_page .welcome .circle4{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    position: fixed;
-    left: 76%;
-    top: 84%;
-    border-radius: 50%;
-    background-color: rgba(243, 210, 210, 0.9);
-    opacity: 100%;
 }
 
 .landing_page .welcome .about_me h2{
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 1px;
     font-weight: 50;
-    position: fixed;
-    top: 36%;
-    left: 24%;
+    position: relative;
     color: black;
 }
 .landing_page .welcome .name h2{
@@ -127,38 +55,58 @@ body {
     font-size: 35px;
     letter-spacing: 1px;
     font-weight: 50;
-    position: fixed;
-    top: 39%;
-    left: 28%;
+    position: relative;
     color: black;
 }
 
 .landing_page .welcome .img1 {
-    height: 300px;
+    height: 340px;
     width: 450px;
-    position: fixed;
-    left: 45%;
-    top: 26%;
-    border: 10px solid white;
+    position: relative;
+    border: 10px solid lightgray;
     border-radius: 15px;
+    vertical-align: top;
 }
 .landing_page .welcome .img2 {
-    height: 400px;
+    height: 380px;
     width: 300px;
-    position: fixed;
-    left: 66%;
-    top: 34%;
-    border: 10px solid white;
+    position: relative;
+    border: 10px solid  rgba(243, 210, 210, 0.9);
     border-radius: 15px;
+    vertical-align: top;
 }
 .landing_page .welcome .img3 {
     height: 300px;
     width: 450px;
-    position: fixed;
-    left: 33%;
-    top: 52%;
-    border: 10px solid white;
+    position: relative;
+    border: 10px solid peachpuff;
     border-radius: 15px;
+    vertical-align: top;
+}
+
+.landing_page .welcome .img5 {
+    height: 340px;
+    width: 450px;
+    position: relative;
+    border: 10px solid lightgray;
+    border-radius: 15px;
+    vertical-align: bottom;
+}
+.landing_page .welcome .img6 {
+    height: 380px;
+    width: 300px;
+    position: relative;
+    border: 10px solid  rgba(243, 210, 210, 0.9);
+    border-radius: 15px;
+    vertical-align: bottom;
+}
+.landing_page .welcome .img7 {
+    height: 300px;
+    width: 450px;
+    position: relative;
+    border: 10px solid peachpuff;
+    border-radius: 15px;
+    vertical-align: bottom;
 }
 
 .row {
