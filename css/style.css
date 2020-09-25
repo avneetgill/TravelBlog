@@ -164,6 +164,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .row .col{
@@ -219,8 +220,8 @@ body {
 }
 
 .row .col .img1 {
-    height: 500px;
-    width: 400px;
+    height: 46%;
+    width: 43%;
     position: relative;
     left: 6%;
     top: 5%;
@@ -228,8 +229,8 @@ body {
     border-radius: 15px;
 }
 .row .col .img2 {
-    height: 500px;
-    width: 400px;
+    height: 46%;
+    width: 43%;
     position: relative;
     left: -1%;
     top: 15%;
@@ -237,8 +238,8 @@ body {
     border-radius: 15px;
 }
 .row .col .img3 {
-    height: 500px;
-    width: 400px;
+    height: 46%;
+    width: 43%;
     position: relative;
     top: -8%;
     left: 10%;
